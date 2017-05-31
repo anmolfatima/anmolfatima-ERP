@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{064ED8BD-1E5C-4817-B975-1670218C23F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Amount  payable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Amount  payable.Designer.cs">
+      <DependentUpon>Amount  payable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Form.Designer.cs">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Genrate GRN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Genrate GRN.Designer.cs">
+      <DependentUpon>Genrate GRN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recive oder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recive oder.Designer.cs">
+      <DependentUpon>Recive oder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice.Designer.cs">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="my connection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="my connection.Designer.cs">
+      <DependentUpon>my connection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coustomer info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coustomer info.Designer.cs">
+      <DependentUpon>Coustomer info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer Approvence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer Approvence.Designer.cs">
+      <DependentUpon>Customer Approvence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vender info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vender info.Designer.cs">
+      <DependentUpon>Vender info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PO.Designer.cs">
+      <DependentUpon>PO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Po Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Po Product.Designer.cs">
+      <DependentUpon>Po Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vender Apperovence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vender Apperovence.Designer.cs">
+      <DependentUpon>Vender Apperovence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Amount  payable.resx">
+      <DependentUpon>Amount  payable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Form.resx">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Genrate GRN.resx">
+      <DependentUpon>Genrate GRN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recive oder.resx">
+      <DependentUpon>Recive oder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice.resx">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="my connection.resx">
+      <DependentUpon>my connection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coustomer info.resx">
+      <DependentUpon>Coustomer info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer Approvence.resx">
+      <DependentUpon>Customer Approvence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vender info.resx">
+      <DependentUpon>Vender info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO.resx">
+      <DependentUpon>PO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Po Product.resx">
+      <DependentUpon>Po Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vender Apperovence.resx">
+      <DependentUpon>Vender Apperovence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
